@@ -146,7 +146,7 @@ exports.testCmd = function(rl, id) {
                     log(`Correcto`);
                     biglog('Correcto', 'green');
                 } else {
-                    log(`Correcto`);
+                    log(`Incorrecto`);
                     biglog('Incorrecto', 'red');
                 }
                 rl.prompt();
